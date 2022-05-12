@@ -20,4 +20,7 @@
 
 > 注意事项
 
-基于Python 3.7.0开发
+1. 基于Python 3.7.0开发
+2. 路径中不要带中文
+3. pyinstaller -F downloader.py 重新编译
+4. 安装pyinstaller 执行命令 pip install pyinstaller -i https://pypi.mirrors.ustc.edu.cn/simple/ 临时使用国内的镜像地址 ---- 常用的国内镜像地址参考文章：https://blog.csdn.net/dss875914213/article/details/86500146
