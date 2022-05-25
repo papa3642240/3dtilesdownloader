@@ -5,4 +5,6 @@ title downloader-V20201120.001
 
 @REM downloader.exe --url=http://ts.wish3d.com/zhengwu/shuqian/data/model/zhonghao_new/tileset.json -d  E:\项目集合\三维GIS与数据孪生研究\下载数据\倾斜摄影\3DTiles\EarthBuildingData  -t 3
 
-downloader.exe --url=http://localhost:5200/online-bim/college/3dtiles/bim-daxue/tileset.json -d  D:\cesium-download-data\bim-3dtiles  -t 10
+@REM downloader.exe --url=http://localhost:5200/online-bim/college/3dtiles/bim-daxue/tileset.json -d  D:\cesium-download-data\bim-3dtiles  -t 10
+
+downloader.exe --url=https://lab.earthsdk.com/model/702aa950d03c11e99f7ddd77cbe22fea/tileset.json -d  D:\cesium-download-data\osgb-3dtiles\building  -t 10

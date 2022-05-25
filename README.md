@@ -24,3 +24,9 @@
 2. 路径中不要带中文
 3. pyinstaller -F downloader.py 重新编译
 4. 安装pyinstaller 执行命令 pip install pyinstaller -i https://pypi.mirrors.ustc.edu.cn/simple/ 临时使用国内的镜像地址 ---- 常用的国内镜像地址参考文章：https://blog.csdn.net/dss875914213/article/details/86500146
+
+> 下载GLB模型步骤
+
+1.  pyinstaller -F downQi.py 重新编译
+2.  pycharm 专门开发Python的ide
+3.  downQi.exe --url=http://data.mars3d.cn/gltf/mars/floor/top.glb -d C:\Users\admin\Desktop\data
